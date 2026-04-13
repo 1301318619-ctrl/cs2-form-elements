@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8.1 Form Elements</title>
+    <title>8.2 Form Elements</title>
 </head>
 <body>
-    
+    <h1>Form Demo</h1>
+    <form>
+        <label>First name:</label>
+        <input type="text" id="firstname">
+        <label>Last name: </label>
+        <input type="text" id="lastname">
+        <label>Email: </label>
+        <input type="email" id="email">
+        <label>Birthdate: </label>
+        <input type="date" id="birthdate">
+        <button onclick="processForm(event)">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
